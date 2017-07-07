@@ -14,7 +14,7 @@ namespace UserInput
 
             Console.WriteLine("What is your name?");
             string name = Console.ReadLine();
-
+            // string concatenation
             Console.WriteLine("Hello " + name + " it is a good day to die");
             Console.ReadLine();
             Console.WriteLine("What is your age?");
