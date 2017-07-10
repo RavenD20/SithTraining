@@ -27,7 +27,7 @@ namespace HelloDemo
             Console.ReadKey();
             WriteLine("We are coming");
             Write("Today\n");
-            Write("..NOW");
+            Write("NOW");
             ReadKey();
 
     

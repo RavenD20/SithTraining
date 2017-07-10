@@ -23,11 +23,11 @@ namespace UserInput
             Console.Write("Im sorry that was mean... \n");
             Console.WriteLine(age + " Years old person named " + name + " ..Hmm..Well atleast you look your age.");
             Console.Write("Hahaha... You wont be missed\n");
-            Console.Write("Are you going out tonight: ?");
+            Console.Write("Are you going out tonight?:");
             string goingout = Console.ReadLine();
         
-            //sting interpolation
-            Console.WriteLine($"Your name is {name} and youre {age} of course youre {goingout}");
+            //string interpolation
+            Console.WriteLine($"Your name is {name} and youre {age} of course you are, {goingout}");
         
             Console.ReadKey();
 
