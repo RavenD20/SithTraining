@@ -36,7 +36,7 @@ namespace MoreMath
             else
             {
 
-                Console.WriteLine("see dead people");
+                Console.WriteLine("I see dead people");
 
 
 
