@@ -1,0 +1,39 @@
+﻿<Window x:Class="WpfPractice1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPractice1"
+        mc:Ignorable="d"
+        Title="Tri-C Class" Height="350" Width="525" Background="#FF931515">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200*"/>
+            <ColumnDefinition Width="94*"/>
+            <ColumnDefinition Width="223*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Action" Content="Press me" HorizontalAlignment="Left" Margin="11,90,0,0" VerticalAlignment="Top" Width="75" Click="Action_Click" Grid.Column="1" Height="20"/>
+        <TextBox x:Name="TBox1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Gutentag" VerticalAlignment="Top" Width="58" Margin="9,210,0,0" Foreground="Purple" Background="Green" TextChanged="TBox1_TextChanged" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="36.717"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label x:Name="LBLText" Content="LBLText" HorizontalAlignment="Left" Margin="4,141,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="61" Height="24" Grid.Column="1">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-46.229"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="button2nd" Content="Second" HorizontalAlignment="Left" Margin="57,133,0,0" VerticalAlignment="Top" Width="75" Click="button2nd_Click"/>
+
+    </Grid>
+</Window>
