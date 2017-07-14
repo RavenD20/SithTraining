@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 namespace EnumPractice1
 {
     enum movies
-    {   
-        jaws = 1, 
-        goodfellas , 
-        heat  , 
-        scarface  ,
-        godfather ,
-        avatar ,
-        inception ,
+    {
+        jaws = 1,
+        goodfellas,
+        heat,
+        scarface,
+        godfather,
+        avatar,
+        inception,
         getout
 
     }
@@ -23,7 +23,7 @@ namespace EnumPractice1
 
 
     class Program
-    { 
+    {
         static void Main(string[] args)
         {
             int favMovie;
@@ -56,6 +56,43 @@ namespace EnumPractice1
             Console.ReadKey();
 
         }
+
+
+
+
+
+       
+        
+        
+
+
+
+
+                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
