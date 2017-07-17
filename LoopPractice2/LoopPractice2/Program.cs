@@ -41,19 +41,29 @@ namespace LoopPractice2
 
             for (int n = 0; n < 4; ++n)
             {
-                Console.WriteLine("The values of array nums is " + (nums[n]));
-                //Console.WriteLine($"The values of array nums is  + {(nums[n])}");
+              //  Console.WriteLine("The values of array nums is " + (nums[n]));
+                Console.WriteLine($"The values of array nums is  + {(nums[n])}");
             }
 
             Console.ReadLine();
 
-            char[] letters = { 'v', 'i', 'n', 'e' };
+            char[] letters = {'v', 'i', 'n', 'e'};
             for (int m = 0; m < letters.Length; ++m)
             {
-                Console.WriteLine($"The value of the letters array are {(letters[m])}");
+               Console.WriteLine($"The value of the letters array are {(letters[m])}");
+                
+              
             }
             Console.ReadKey();
 
+
+          
+            for (int m = 0; m < letters.Length; ++m)
+            {
+
+                Console.Write((letters[m]));
+            }
+            Console.ReadKey();
 
 
 
