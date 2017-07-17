@@ -12,19 +12,19 @@ namespace LoopArray
         {
 
 
-            int d = 0;           
-           int[] pieces = { 33, 22, 51, 78, 90};
+            int d = 0;
+            int[] pieces = { 33, 22, 51, 78, 90 };
 
-            for (d = 0; d < pieces.Length; ++d) 
+            for (d = 0; d < pieces.Length; ++d)
             {
-               
-                    Console.WriteLine($"The value of the pieces array is currently {(pieces[d])}");
 
-                    if (pieces[d] == 51)
+                Console.WriteLine($"The value of the pieces array is currently {(pieces[d])}");
+
+                if (pieces[d] == 51)
                 {
 
-                        Console.WriteLine("We found 51");
-                        break;
+                    Console.WriteLine("We found 51");
+                    break;
                 }
                 //Console.WriteLine($"The value of the pieces array is currently {(pieces[d])}");
 
@@ -51,6 +51,27 @@ namespace LoopArray
             }
             Console.WriteLine("We were kicked out of the loop");
             Console.ReadLine();
-        }
-    }
-}
+
+                foreach (string car in cars)
+            {
+
+                Console.WriteLine(car);
+
+            }
+
+            Console.ReadLine();
+            foreach (int piece in pieces)
+
+                   
+            {
+
+                Console.WriteLine($" There are the value of the pieces array {piece}");
+            }
+            Console.ReadLine();
+
+        }   
+
+
+
+
+}   }        
