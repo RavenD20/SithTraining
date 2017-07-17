@@ -19,7 +19,7 @@ namespace LoopPraactice1
 
             string[] ninjas = { "Scorpion", "Smoke", "Sub-Zero", "Rain", "Ermac", "Noob" };
 
-            int[] lvl = { 1000, 2000, 4000, 6000, 8000, 10000 };
+    
 
             int[] numbers = { 2, 4, 88, 11, 55, 99, 165 };
 
