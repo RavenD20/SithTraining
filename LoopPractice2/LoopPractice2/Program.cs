@@ -20,7 +20,7 @@ namespace LoopPractice2
 
             for (int r = 0; r < 6; r++)
             {
-                Array.Sort(lvl);
+                Array.Reverse(lvl);
                 Console.WriteLine("Their power levels are \n" +(lvl[r]));
             }
             Console.ReadLine();
@@ -31,6 +31,26 @@ namespace LoopPractice2
                 Array.Sort(saiyan);
                 Console.WriteLine("The exsisting Saiyans seen so far are \n" + (saiyan[dbz]));
 
+            }
+            Console.ReadKey();
+            int[] nums = new int[4];
+            nums[0] = 10;
+            nums[1] = 20;
+            nums[2] = 30;
+            nums[3] = 40;
+
+            for (int n = 0; n < 4; ++n)
+            {
+                Console.WriteLine("The values of array nums is " + (nums[n]));
+                //Console.WriteLine($"The values of array nums is  + {(nums[n])}");
+            }
+
+            Console.ReadLine();
+
+            char[] letters = { 'v', 'i', 'n', 'e' };
+            for (int m = 0; m < letters.Length; ++m)
+            {
+                Console.WriteLine($"The value of the letters array are {(letters[m])}");
             }
             Console.ReadKey();
 
