@@ -10,6 +10,9 @@ namespace GuessingGame1
     {
         static void Main(string[] args)
         {
+
+
+
             Random rand = new Random();
             int rNum = rand.Next(1, 20);
             int realNum;

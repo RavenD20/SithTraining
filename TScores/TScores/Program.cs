@@ -17,6 +17,7 @@ namespace TScores
             int testnum;
             int lowNum = 0;
             int[] bonus = { 20 };
+
             int highNum = 100;
 
 
