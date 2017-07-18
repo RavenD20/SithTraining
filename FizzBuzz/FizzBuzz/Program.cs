@@ -12,7 +12,11 @@ namespace FizzBuzz
         {
             for (int i = 1; 1<= 100; i++)
             {
-                if (i % 3 == 0)
+                if (i % 15 == 0)
+                {
+                  Console.WriteLine("fizzbuzz");
+                }                 
+                else if (i % 3 == 0)
                 {
                    Console.WriteLine("fizz");
                 }                             
@@ -20,10 +24,7 @@ namespace FizzBuzz
                 {
                   Console.WriteLine("buzz");
                 }                 
-                else if (i % 15 == 0)
-                {
-                  Console.WriteLine("fizzbuzz");
-                }                 
+                
                 else
                 {
                   Console.WriteLine(i);
