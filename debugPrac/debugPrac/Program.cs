@@ -10,6 +10,14 @@ namespace debugPrac
     {
         static void Main(string[] args)
         {
+
+            
+
+
+
         }
+
+
+
     }
 }
