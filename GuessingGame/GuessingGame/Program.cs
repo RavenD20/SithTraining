@@ -12,8 +12,11 @@ namespace GuessingGame
         {
             
             Program p = new Program();
+            vacation v = new Vacation();
+         
 
             Console.WriteLine("Hello World");
+
 
             p.Working();
             p.Extra();
