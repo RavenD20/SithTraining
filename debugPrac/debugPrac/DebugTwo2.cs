@@ -6,15 +6,13 @@ class DebugTwo2
 {
    static void Main()
    {
-      string name;
-      string firstString, secondString;
+        string name;
+        string firstString, secondString;
 
         int first, second, product;
 
-
-
         WriteLine("Enter your name");
-      name = ReadLine();
+        name = ReadLine();
 
         WriteLine("Hello {0}! Enter an integer", name);
 
@@ -28,7 +26,7 @@ class DebugTwo2
 
         product = first * second;
 
-        WriteLine("Thank you {1}. The product of {2} and {3} is {4}",
+       WriteLine("Thank you {0}. The product of {1} and {2} is {3}",
 	  name, first, second, product);
    }
 }
