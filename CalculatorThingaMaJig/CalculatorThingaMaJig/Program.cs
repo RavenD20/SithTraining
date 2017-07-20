@@ -32,7 +32,7 @@ namespace CalculatorThingaMaJig
             switch (Mathstuff)           
             {
                 case 1:
-                   Console.WriteLine("");
+                   Console.WriteLine(" ");
                     break;
 
 
