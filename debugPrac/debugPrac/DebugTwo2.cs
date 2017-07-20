@@ -8,15 +8,27 @@ class DebugTwo2
    {
       string name;
       string firstString, secondString;
-      int first, second, product;
-      WriteLine("Enter your name");
+
+        int first, second, product;
+
+
+
+        WriteLine("Enter your name");
       name = ReadLine();
-      WriteLine("Hello {0}! Enter an integer", name);
-      first = ReadLine();
-      WriteLine("Enter another integer");
-      second = ReadLine();
-      product = first * second;
-      WriteLine("Thank you {1}. The product of {2} and {3} is {4}",
-	 name, first, second, product);
+
+        WriteLine("Hello {0}! Enter an integer", name);
+
+        firstString = ReadLine();
+         first = Convert.ToInt16(firstString);
+
+        WriteLine("Enter another integer");
+
+        secondString = ReadLine();
+        second = Convert.ToInt32(secondString);
+
+        product = first * second;
+
+        WriteLine("Thank you {1}. The product of {2} and {3} is {4}",
+	  name, first, second, product);
    }
 }

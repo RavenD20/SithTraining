@@ -7,21 +7,21 @@ class DebugTwo3
 {
    static void Main()
    {
-      const double WITHHOLDING_RATE;
+      const double WITHHOLDING_RATE = 1;
       string hoursAsString, rateAsString;
       double hours, rate;
       double gross, net;
       Write("Enter the number of hours you worked this week ");
-      hoursAsString = ReadLine;
+      hoursAsString = ReadLine();
       Write("Enter your hourly rate ");
-      rateAsString = ReadLine
+        rateAsString = ReadLine();
 
       hours = Convert.ToDouble(hoursAsString);
       rate = Convert. ToDouble(rateAsString);
       gross = hours * rate;
       net = gross - WITHHOLDING_RATE;
       WriteLine("You worked {0} hours at {1} per hour",
-	 hours, rate.ToString(C));
+	 hours, rate.ToString("C"));
       WriteLine("Gross pay is {0}", gross.ToString("C"));
       WriteLine("Net pay is {0}", net.ToString("C")); 
    }
