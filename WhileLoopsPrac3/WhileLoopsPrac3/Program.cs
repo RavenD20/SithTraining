@@ -48,10 +48,10 @@ namespace WhileLoopsPrac3
                     Console.WriteLine($"Your guess of {actualNum} was not correct... \n Try again"); numofGuesses++;
                 }
                 while (actualNum != randomNum) ;
+             
 
 
-
-            }
+            
 
     }   }     
 } 

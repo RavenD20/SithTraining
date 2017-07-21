@@ -13,7 +13,7 @@ namespace MethodPrac2
             Program P = new Program();
 
 
-            int val1;
+           int val1;
             int val2;
           
 
