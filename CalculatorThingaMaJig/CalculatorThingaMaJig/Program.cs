@@ -115,7 +115,7 @@ namespace CalculatorThingaMaJig
                     else
                     {
                         Console.WriteLine("Alright..Goodbye!");
-                        Console.ReadKey();
+                        
                     }
 
 
@@ -163,7 +163,8 @@ namespace CalculatorThingaMaJig
             Console.WriteLine(" =====**********  *     X                     )  \\  )  ");
               Console.WriteLine(" ====*         *     X               \\  \\   )XXXXX  ");
           Console.WriteLine(" =========**********       XXXXXXXXXXXXXXXXXXXXXX  ");
-                    break;                    
+                     Console.ReadKey();
+                    break; 
             }
         }
         public void Addition()
