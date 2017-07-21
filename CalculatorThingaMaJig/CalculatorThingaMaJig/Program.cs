@@ -18,20 +18,10 @@ namespace CalculatorThingaMaJig
 
             Program p = new Program();
 
+            
 
 
-
-                 Console.WriteLine("T");
-              Console.WriteLine(".- |- .");                        
-             Console.WriteLine("|  ___  |");
-             Console.WriteLine("|(.|_|.)|");           
-             Console.WriteLine("| ',,,' |");
-             Console.WriteLine("|' ###  |");
-            Console.WriteLine("  '-----' ");
-
-
-
-            Console.WriteLine("Welcome to the Calculatron.");
+       Console.WriteLine("Welcome to the Calculatron.");
 
 
 
@@ -172,18 +162,9 @@ namespace CalculatorThingaMaJig
             Console.WriteLine(" =====**********  *     X                     )  \\  )  ");
               Console.WriteLine(" ====*         *     X               \\  \\   )XXXXX  ");
           Console.WriteLine(" =========**********       XXXXXXXXXXXXXXXXXXXXXX  ");
-
-
-                    break;
+                    break;                    
             }
-
-
-
-
-
         }
-
-
         public void Addition()
         {
             Program p = new Program();
@@ -214,20 +195,14 @@ namespace CalculatorThingaMaJig
             }
 
             else
+
             {
-                Console.WriteLine("Glad to be of assistance.Goodbye!");
-
-
-               
+                Console.WriteLine("Glad to be of assistance.Goodbye!");              
             }
-
-
-
-
-
         }
 
         public void Subtraction()
+
         {
             Program p = new Program();
             int var3 = (0);
@@ -259,6 +234,7 @@ namespace CalculatorThingaMaJig
         }
 
         public void Multiplication()
+
         {
             Program p = new Program();
             int dig3 = (1);
@@ -321,26 +297,12 @@ namespace CalculatorThingaMaJig
 
         }
 
-
         public void Recall()
         {
 
             Main();
 
-
-
-
-
-
         }
-
-
-
-
-
-
-
-
 
         //public void Addition(int val1, int val2)
         //{
