@@ -21,6 +21,16 @@ namespace CalculatorThingaMaJig
 
 
 
+                 Console.WriteLine("T");
+              Console.WriteLine(".- |- .");                        
+             Console.WriteLine("|  ___  |");
+             Console.WriteLine("|(.|_|.)|");           
+             Console.WriteLine("| ',,,' |");
+             Console.WriteLine("|' ###  |");
+            Console.WriteLine("  '-----' ");
+
+
+
             Console.WriteLine("Welcome to the Calculatron.");
 
 
@@ -119,20 +129,20 @@ namespace CalculatorThingaMaJig
 
 
                       Console.WriteLine(" XXXX ");
-                      Console.WriteLine("X    XX ");
-                     Console.WriteLine("X  ***  X                XXXXX ");
+                      Console.WriteLine("X    XX");
+                     Console.WriteLine("X  ***  X                XXXXX");
                     Console.WriteLine("X  *****  X            XXX     XX ");
-                Console.WriteLine("XXXX ******* XXX      XXXX          XX ");
-                 Console.WriteLine("XX   X ******  XXXXXXXXX                XX XXX ");
-               Console.WriteLine("XX      X ****  X                           X**  X ");
-            Console.WriteLine("X        XX    XX     X                      X*** X ");
-          Console.WriteLine("X         //XXXX       X                      XXXX ");
-         Console.WriteLine("X         //   X                             XX ");
-        Console.WriteLine("X         //    X          XXXXXXXXXXXXXXXXXX/ ");
-        Console.WriteLine("X     XXX//    X          X  ");
-        Console.WriteLine("X    X   X     X         X  ");
-        Console.WriteLine("X    X    X    X        X ");
-          Console.WriteLine("X   X    X    X        X                    XX ");
+                 Console.WriteLine("XXXX ******* XXX      XXXX          XX ");
+                Console.WriteLine("XX   X ******  XXXXXXXXX                XX XXX");
+               Console.WriteLine("XX      X ****  X                           X**  X");
+            Console.WriteLine("X        XX    XX     X                      X*** X");
+          Console.WriteLine("X         //XXXX       X                      XXXX");
+         Console.WriteLine("X         //   X                             XX");
+        Console.WriteLine("X         //    X          XXXXXXXXXXXXXXXXXX/");
+        Console.WriteLine("X     XXX//    X          X ");
+        Console.WriteLine("X    X   X     X         X ");
+        Console.WriteLine("X    X    X    X        X");
+          Console.WriteLine("X   X    X    X        X                    XX");
           Console.WriteLine("X    X   X    X        X                 XXX  XX ");
            Console.WriteLine("X    XXX      X        X               X  X X  X ");
            Console.WriteLine("X             X         X              XX X  XXXX ");
