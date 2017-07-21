@@ -22,6 +22,9 @@ namespace CalculatorThingaMaJig
 
 
             Console.WriteLine("Welcome to the Calculatron.");
+
+
+
             Console.Write("Your name please?");
 
             string name = Console.ReadLine();
@@ -115,6 +118,50 @@ namespace CalculatorThingaMaJig
                     }
 
 
+                      Console.WriteLine(" XXXX ");
+                      Console.WriteLine("X    XX ");
+                     Console.WriteLine("X  ***  X                XXXXX ");
+                    Console.WriteLine("X  *****  X            XXX     XX ");
+                Console.WriteLine("XXXX ******* XXX      XXXX          XX ");
+                 Console.WriteLine("XX   X ******  XXXXXXXXX                XX XXX ");
+               Console.WriteLine("XX      X ****  X                           X**  X ");
+            Console.WriteLine("X        XX    XX     X                      X*** X ");
+          Console.WriteLine("X         //XXXX       X                      XXXX ");
+         Console.WriteLine("X         //   X                             XX ");
+        Console.WriteLine("X         //    X          XXXXXXXXXXXXXXXXXX/ ");
+        Console.WriteLine("X     XXX//    X          X  ");
+        Console.WriteLine("X    X   X     X         X  ");
+        Console.WriteLine("X    X    X    X        X ");
+          Console.WriteLine("X   X    X    X        X                    XX ");
+          Console.WriteLine("X    X   X    X        X                 XXX  XX ");
+           Console.WriteLine("X    XXX      X        X               X  X X  X ");
+           Console.WriteLine("X             X         X              XX X  XXXX ");
+             Console.WriteLine("X             X         XXXXXXXX\\    XX   XX  X ");
+              Console.WriteLine("XX            XX              X     X    X  XX ");
+               Console.WriteLine(" XX            XXXX   XXXXXX/     X     XXXX ");
+                 Console.WriteLine(" XXX             XX***         X     X ");
+                    Console.WriteLine(" XXXXXXXXXXXXX *   *       X     X ");
+                                 Console.WriteLine(" * ---* X     X     X ");
+                               Console.WriteLine(" * -* *   XXX X     X ");
+                               Console.WriteLine(" * - *       XXX   X  ");
+                              Console.WriteLine(" * - *X          XXX ");
+                              Console.WriteLine(" * - *X  X          XXX ");
+                             Console.WriteLine(" * - *X    X            XX  ");
+                              Console.WriteLine(" * - *XX    X             X  ");
+                              Console.WriteLine(" *  *X* X    X             X  ");
+                              Console.WriteLine(" *  *X * X    X             X  ");
+                             Console.WriteLine(" *  * X**  X   XXXX          X  ");
+                             Console.WriteLine(" *  * X**  XX     X          X  ");
+                            Console.WriteLine(" *  ** X** X     XX          X  ");
+                            Console.WriteLine(" *  **  X*  XXX   X         X  ");
+                           Console.WriteLine(" *  **    XX   XXXX       XXX  ");
+                          Console.WriteLine(" *  * *      XXXX      X     X  ");
+                         Console.WriteLine(" *   * *          X     X     X  ");
+          Console.WriteLine(" =======*******   * *           X     X      XXXXXXXX\\  ");
+                 Console.WriteLine(" *         * *      /XXXXX      XXXXXXXX\\      )  ");
+            Console.WriteLine(" =====**********  *     X                     )  \\  )  ");
+              Console.WriteLine(" ====*         *     X               \\  \\   )XXXXX  ");
+          Console.WriteLine(" =========**********       XXXXXXXXXXXXXXXXXXXXXX  ");
 
 
                     break;
