@@ -115,6 +115,7 @@ namespace CalculatorThingaMaJig
                     else
                     {
                         Console.WriteLine("Alright..Goodbye!");
+                        Console.ReadKey();
                     }
 
 
@@ -197,7 +198,8 @@ namespace CalculatorThingaMaJig
             else
 
             {
-                Console.WriteLine("Glad to be of assistance.Goodbye!");              
+                Console.WriteLine("Glad to be of assistance.Goodbye!");
+                Console.ReadKey();
             }
         }
 
@@ -230,6 +232,7 @@ namespace CalculatorThingaMaJig
             else
             {
                 Console.WriteLine("Adios!");
+                Console.ReadKey();
             }
         }
 
@@ -262,6 +265,7 @@ namespace CalculatorThingaMaJig
             else
             {
                 Console.WriteLine("Alright.I'll be here if you need me!");
+                Console.ReadKey();
             }
         }
 
@@ -293,6 +297,7 @@ namespace CalculatorThingaMaJig
             else
             {
                 Console.WriteLine("A pleasure working with you!");
+                Console.ReadKey();
             }
 
         }
