@@ -11,7 +11,7 @@ using static System.Console;
 
 class DebugFour1
 {
-   static void Main()
+   static void debugfourone()
    {
       const double BASIC_DOG_PRICE = 2.00;
       const double CHILI_PRICE = 0.69;

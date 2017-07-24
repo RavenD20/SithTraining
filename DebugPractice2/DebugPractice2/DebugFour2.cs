@@ -7,7 +7,7 @@ using System;
 using static System.Console;
 class DebugFour2
 {
-   static void Main()
+   public void FourTwo()
    {
         int num1, num2, num3;
       string snum1, snum2, snum3;
@@ -20,12 +20,14 @@ class DebugFour2
       Write("Enter third number ");
       snum3 = ReadLine();
       num3 = Convert.ToInt32(snum3);
-      if(num1 > num2 && num2 <= num3)
+      if(num1 <= num2 && num2 <= num3)
          WriteLine("Numbers are in sequential order");
       else
-         if(num1 < num2 && num2 == num3)
+         if(num1 >= num2 && num2 >= num3)
             WriteLine("Numbers are in reverse order");
          else
             WriteLine("Numbers are in neither sequential nor reverse order");
-   }
+
+        Console.ReadLine();
+    }
 }
