@@ -10,12 +10,18 @@ namespace MethodpassingRef1
     {
         static void Main(string[] args)
         {
-
-            int x = 5;
+           int x = 5;
             Console.WriteLine($"in the method x= {x}");
              DisplayValueParameter(x);
             Console.WriteLine($"In the main method the value of x is now {x}");
 
+           DisplayNewValue(ref x);
+
+            Console.WriteLine($"the value of exciting x is now {x}");
+
+            DisplaySecondValue(ref x);
+
+            Console.WriteLine($"The value of z is now {x}");
             Console.ReadLine();
            
         }
@@ -27,14 +33,21 @@ namespace MethodpassingRef1
         
         }
 
-        private static void DisplayNewValue(ref int n, ref int z)
+        private static void DisplayNewValue(ref int n)
         {
 
-            n = 1000;
+          n = 1000;
             Console.WriteLine($"We are in the very exciting new value method \n where x = {n}");
 
         }
+        private static void DisplaySecondValue(ref int z)
+        {
+           z = 555;
+            Console.WriteLine($"The value of z is now {z}");
 
+
+
+        }
 
 
     }
