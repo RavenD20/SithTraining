@@ -23,7 +23,7 @@ namespace StringMethodPassing1
             Console.WriteLine($"{Sith} is here, using the MegaMan method");
 
             DeathStar(ref Sith);
-            Console.WriteLine($"The value of the DeathStar Method is now {Sith}");
+            Console.WriteLine($"The value of Lord Vader through the DeathStar Method is now {Sith}");
 
             Console.WriteLine("I call this the Villan string method");
 
@@ -54,8 +54,9 @@ namespace StringMethodPassing1
         private static void DeathStar(ref string LordVader)
         {
 
-            LordVader = "The Darkside";
             Console.WriteLine($"The value of Lord Vader is now {LordVader}");
+            LordVader = "The Darkside";
+           
 
         }
         private static void Chameleon(ref string Gamechanger)
