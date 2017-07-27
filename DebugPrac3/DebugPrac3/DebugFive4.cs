@@ -15,7 +15,7 @@ class DebugFive4
       int count;
       Write("How many days do you think ");
       WriteLine("it will take you to reach");
-      Write("{0 starting with {{1}",
+      Write("{0} starting with {{1}",
          LIMIT.ToString("C"), START.ToString("C"));
       WriteLine("and doubling it every day?");
       inputString = ReadLine();
