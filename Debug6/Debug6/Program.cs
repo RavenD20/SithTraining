@@ -10,6 +10,17 @@ namespace Debug6
     {
         static void Main(string[] args)
         {
+
+            //DebugSix01.DebugSixone();
+
+            DebugSix02.DebugSixtwo();    
+
+            
+              
+                
+                  
+
+
         }
     }
 }

@@ -22,7 +22,7 @@ class DebugFive4
       howMany = Convert.ToInt32(inputString);
       count = 0;
       total = START;
-      while(total == LIMIT)
+      while(total < LIMIT)
       {
          total = total * 2;
          count = count + 1; 
