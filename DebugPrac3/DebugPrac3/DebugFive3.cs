@@ -15,7 +15,7 @@ class DebugFive3
       for(letter = 'A'; letter < 'Z'; ++letter)
         for(number = LOW; number > HIGH; ++number)
         {
-           if(number % NUMINROW0)
+                if (number % NUMINROW == 0) 
               WriteLine();
            Write("{0}{{1} ", letter, number.ToString("D2"));
         }
