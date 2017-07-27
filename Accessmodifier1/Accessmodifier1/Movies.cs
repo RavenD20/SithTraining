@@ -8,5 +8,33 @@ namespace Accessmodifier1
 {
     class Movies
     {
+        Program p = new Program();
+       
+
+        public void Genre()
+        {
+
+            //Program p = new
+            //  Program();
+
+            Program.DivideNumber(5, 2);
+          
+
+
+            Console.WriteLine("Horror");
+
+
+            Console.WriteLine("Action");
+
+
+
+
+        }
+
+
+
+
+
+
     }
 }
