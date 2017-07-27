@@ -5,7 +5,7 @@ using System;
 using static System.Console;
 class DebugFive4
 {
-    public void DebugPrac4()
+    public static void DebugPrac4()
     {
       const double LIMIT = 1000000.00;
       const double START = 0.01;

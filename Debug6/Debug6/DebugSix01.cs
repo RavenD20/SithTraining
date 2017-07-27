@@ -2,7 +2,7 @@
 using static System.Console;
 class DebugSix01
 {
-   static void DebugSixone()
+   public static void DebugSixone()
    {
       string[] items = {"Belt", "Tie", "Scarf", "Cufflinks"};
       double[] prices = {29.00, 35.95, 18.50, 112.99};

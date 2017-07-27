@@ -19,7 +19,8 @@ class DebugSix02
       }   
       average = total / numbers.Length;
       Write("The average is {0}");
-       
+
+        ReadLine();
     }
-         ReadLine();
+        
 }

@@ -5,7 +5,7 @@
 using static System.Console;
 class DebugFive3
 {
-    public void DebugPrac3()
+    public static void DebugPrac3()
     {
       char letter;
       int number;

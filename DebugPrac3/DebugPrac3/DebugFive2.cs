@@ -4,7 +4,7 @@
 using static System.Console;
 class DebugFive2
 {
-    public void DebugPrac2()
+    public static void DebugPrac2()
     {
       const string ITEM209 = "209";
       const string ITEM312 = "312";
