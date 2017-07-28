@@ -3,7 +3,7 @@ using System;
 using static System.Console;
 class DebugSix03
 {
-   static void Main()
+  public static void debugsixthree()
    {
       String[] books = {"Catch-22", "Harry Potter",
          "Programming Using C#", "Rich Dad, Poor Dad",
@@ -11,11 +11,11 @@ class DebugSix03
       int x;
       string entryString;
       Write("What book are you looking for? ");
-      entryString = Console.Readline();
+      entryString = Console.ReadLine();
       x = Array.BinarySearch(books);
       if(x < 0)
-         WriteLine("{0} not found", entry);
+         WriteLine("{0} not found", entryString);
       else
-         WriteLine("Yes, we carry {0}", entry);   
+         WriteLine("Yes, we carry {0}", entryString);   
    }
 }

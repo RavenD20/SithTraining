@@ -13,7 +13,6 @@ namespace ReturnvalPractice2
 
             
             
-           // string month = "";
          string age = "";
           string year = "";
             double dig= 0;
