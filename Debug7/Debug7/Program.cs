@@ -11,8 +11,8 @@ namespace Debug7
         static void Main(string[] args)
         {
             Program p = new Program();
-            DebugSix03.debugsixthree();
-            //DebugSix04.debugsixfour();
+           // DebugSix03.debugsixthree();
+            DebugSix04.debugsixfour();
 
         }
     }

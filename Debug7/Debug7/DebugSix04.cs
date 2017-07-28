@@ -5,11 +5,11 @@ using System;
 using static System.Console;
 class DebugSix04
 {
-   public static void debugsixfour()
-   {
-      const int QUIT = 999;
-      int[] numbers = new int[];
-      int x;
+    public static void debugsixfour()
+    {
+        const int QUIT = 999;
+        int[] numbers = {1,2,3,4,5,6,7,8,9,10};
+      int x= 0;
       int num;
       double average;
       double total = 0;
@@ -18,21 +18,26 @@ class DebugSix04
          QUIT + " to quit...");
       inString = ReadLine();
       num = Convert.ToInt32(inString);
-        while ((x < numbers.Length) && num == QUIT);
+        while ((x < numbers.Length) && num != QUIT)
       {
  	  numbers[x] = num;
           total += numbers[x];
           ++x;
-          Write("Please enter a number or " +
-             QUIT + " to quit...");
-          inString = ReadLine();
-          num = Convert.ToInt32(inString);
+            Write("Please enter a number or " +
+               QUIT + " to quit...");
+            inString = ReadLine();
+            num = Convert.ToInt32(inString);
       }
-      WriteLine("The numbers are:");
+        //double sum = 0;
+
+        WriteLine("The numbers are:");
       for(int y = 0; y < x; ++x)
           Console.Write("{0,6}", numbers[y]);
-      average = total / x;
+       // sum += total;
+        average = total / x;
       WriteLine();
       WriteLine("The average is {0}", average);
-  }
-}
+
+        Console.ReadLine();
+    }
+}           

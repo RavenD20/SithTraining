@@ -12,10 +12,13 @@ class DebugSix03
       string entryString;
       Write("What book are you looking for? ");
       entryString = Console.ReadLine();
-      x = Array.BinarySearch(books);
+      x = Array.BinarySearch(books,entryString);
       if(x < 0)
          WriteLine("{0} not found", entryString);
       else
-         WriteLine("Yes, we carry {0}", entryString);   
-   }
+         WriteLine("Yes, we carry {0}", entryString);
+        Console.ReadLine();
+
+
+    }
 }

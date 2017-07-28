@@ -11,12 +11,12 @@ namespace ReturnvalPractice2
         static void Main(string[] args)
         {
 
-            
-            
-         string age = "";
-          string year = "";
-            double dig= 0;
-            double diggery= 0;
+
+
+            string age = "";
+            string year = "";
+            double dig = ;
+            double diggery= ;
             string favplace = "";
             string favfood ="";
             string place;
