@@ -13,25 +13,42 @@ namespace ReturnvalPractice2
 
             
             
-            string month = "";
-         //   string age = "";
-           string year = "";
+           // string month = "";
+         string age = "";
+          string year = "";
+            double dig= 0;
+            double diggery= 0;
             string favplace = "";
-            string favfood = "";
-
-
+            string favfood ="";
+            string place;
+            string food;
             string myfavorites = Preference(favplace, favfood);
 
+
+            Console.WriteLine("What is your favorite restuarant?");
+             place = Console.ReadLine();
+            Console.WriteLine("what is your favorite food?");
+            food = Console.ReadLine();
             Console.WriteLine($"The place you like to go is {favplace} and your favorite food is {favfood}");
             
             Console.ReadLine();
 
+            double Bdate = Birthday(dig,diggery);
 
-            //Console.WriteLine("What year is it?");
-            //year = Console.ReadLine();
+            Console.WriteLine("What is the year?");
+            year = Console.ReadLine();
+            dig = Convert.ToDouble(year);
 
-            //Console.WriteLine("How old are you?");
-            //string age = Console.ReadLine();
+
+
+            Console.WriteLine("How old are you?");
+            age = Console.ReadLine();
+            diggery = Convert.ToDouble(age);
+
+            Console.WriteLine($" The year you were born in is {Bdate}");
+
+            Console.WriteLine($"So your favorite place is {favplace} and the dish you like is {favfood} and the year you were born in was {Bdate}.");
+            Console.ReadKey();
 
             //Console.WriteLine("What month were you born in?");
 
@@ -43,13 +60,23 @@ namespace ReturnvalPractice2
         }
 
 
-        public static int Birthday(int n, int n2)
+        public static double Birthday(double dig, double diggery)
         {
 
-            //int DateofBirth = year - age;
-            //return DateofBirth;
+           double DateofBirth = dig - diggery;
+            return DateofBirth;
 
         }
+        private void Web()
+        {
+
+
+
+
+
+
+        }
+
         private static string Preference( string place, string food)
         {
             string WhatILike = place + food;
