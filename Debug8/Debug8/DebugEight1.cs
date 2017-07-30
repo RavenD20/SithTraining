@@ -7,24 +7,34 @@ class DebugEight1
 {
    static void Main()
    {
-      int orderNum, quantity;
-      double total;
-      const double PRICE_EACH = 3.99;
-      GetData(orderNum, quantity);
-      total = quantity * PRICEEACH;
-      WriteLine("Order #{0}. Quantity ordered = {1}",
-          orderNum, quantity;
-      WriteLine("Total is {0}", total.ToString("C"));
+        GetData();
+        Console.ReadLine();
+      
    }
-   private static void GetData(out order, out amount)
+   private static void GetData()
    {
-       String s1, s2;
+      int orderNum,quantity;
+
+
+
+        const double PRICE_EACH = 3.99;
+        double total;
+
+        String s1, s2;
        Write("Enter order number ");
-       s1 = ReadLine;
+       s1 = ReadLine();
        Write("Enter quantity ");
-       s2 = ReadLine;
-       order = Convert.ToInt32(s1);
-       amount = Convert.ToInt32(s2);
-   }
+       s2 = ReadLine();
+       orderNum = Convert.ToInt32(s1);
+       quantity = Convert.ToInt32(s2);
+
+
+
+        WriteLine("Order #{0}. Quantity ordered = {1}");
+         total = quantity * PRICE_EACH;
+        WriteLine("Total is {0}", total.ToString("C"));
+
+
+    }
 }
 

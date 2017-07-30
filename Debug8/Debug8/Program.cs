@@ -8,8 +8,10 @@ namespace Debug8
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Program p = new Program();
+
         }
     }
 }
