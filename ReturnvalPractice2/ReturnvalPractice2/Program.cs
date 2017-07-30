@@ -11,12 +11,12 @@ namespace ReturnvalPractice2
         static void Main(string[] args)
         {
 
-
-
-            string age = "";
-            string year = "";
-            double dig = ;
-            double diggery= ;
+            Program p = new Program();
+            
+         string age = "";
+          string year = "";
+            double dig= 0 ;
+            double diggery= 0 ;
             string favplace = "";
             string favfood ="";
             string place;
@@ -30,18 +30,20 @@ namespace ReturnvalPractice2
             food = Console.ReadLine();
             Console.WriteLine($"The place you like to go is {favplace} and your favorite food is {favfood}");
             
-            Console.ReadLine();
+           // Console.ReadLine();
 
             double Bdate = Birthday(dig,diggery);
 
             Console.WriteLine("What is the year?");
             year = Console.ReadLine();
+            double.TryParse(year, out dig);
             dig = Convert.ToDouble(year);
 
 
 
             Console.WriteLine("How old are you?");
             age = Console.ReadLine();
+            double.TryParse(age, out diggery);
             diggery = Convert.ToDouble(age);
 
             Console.WriteLine($" The year you were born in is {Bdate}");
@@ -62,7 +64,9 @@ namespace ReturnvalPractice2
         public static double Birthday(double dig, double diggery)
         {
 
-           double DateofBirth = dig - diggery;
+            
+
+            double DateofBirth = dig - diggery;
             return DateofBirth;
 
         }
@@ -76,7 +80,7 @@ namespace ReturnvalPractice2
 
         }
 
-        private static string Preference( string place, string food)
+        public static string Preference( string place, string food)
         {
             string WhatILike = place + food;
             return WhatILike;
