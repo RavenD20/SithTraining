@@ -4,11 +4,11 @@ using static System.Console;
 
 class DebugSeven1
 {
-  public static void WebAddress()
+  public static void debugseven1()
    {
 
-       
 
+       // DebugSeven1.debugseven1();
 
         DisplayWebAddress();
 
@@ -19,6 +19,8 @@ class DebugSeven1
         WriteLine("The best bargains from around the world");
 
         DisplayWebAddress();
+
+        ReadLine();
    }
    private static void DisplayWebAddress()
    {

@@ -3,7 +3,7 @@
 using static System.Console;
 class DebugSeven2
 {
-    static void Adresses()
+    public static void debugseven2()
    {
       string addressee = "Ms. Brooke Jefferson";
       int zipCode = 60007;
@@ -12,6 +12,7 @@ class DebugSeven2
         WriteLine("-----------------------");
       AddressMethod(zipCode);
       WriteLine("-----------------------");
+        ReadLine();
    }
    private static void AddressMethod(int zipCode)
    {

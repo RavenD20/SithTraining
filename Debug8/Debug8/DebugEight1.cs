@@ -1,11 +1,15 @@
 // GetData() method accepts order number and quantity
 // that are used in the Main() method
 // Price is $3.99 each
+// did it wrong-Df
+
+
+
 using System;
 using static System.Console;
 class DebugEight1
 {
-   static void Main()
+    public static void bug8()
    {
         GetData();
         Console.ReadLine();

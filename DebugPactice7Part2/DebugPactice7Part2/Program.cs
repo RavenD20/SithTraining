@@ -12,6 +12,11 @@ namespace DebugPactice7Part2
         {
 
             Program p = new Program();
+
+           // DebugSeven1.debugseven1();
+            DebugSeven2.debugseven2();
+            
+
         }
     }
 }

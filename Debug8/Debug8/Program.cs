@@ -11,7 +11,8 @@ namespace Debug8
         static void Main()
         {
             Program p = new Program();
-
+           // DebugEight1.bug8();
+           DebugEight2.TScores();
         }
     }
 }
