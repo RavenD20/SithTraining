@@ -9,7 +9,7 @@ namespace EncapsulationPractice1
     class program
     {
        
-       void Main(string[] args)
+      public static void Main(string[] args)
         {
 
             program p = new program();

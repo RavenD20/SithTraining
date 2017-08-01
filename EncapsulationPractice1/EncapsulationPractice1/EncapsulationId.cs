@@ -53,11 +53,7 @@ namespace EncapsulationPractice1
 
             }
 
-
-
-
-
-
+            
         }
 
         public string FirstName
