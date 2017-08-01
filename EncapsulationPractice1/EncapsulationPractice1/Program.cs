@@ -9,8 +9,11 @@ namespace EncapsulationPractice1
     class program
     {
        
-       static void Main(string[] args)
+       void Main(string[] args)
         {
+
+            program p = new program();
+
             Student s = new Student();
             Student s1 = new Student();
             Student s2 = new Student();
@@ -18,7 +21,7 @@ namespace EncapsulationPractice1
             s.IdNumber = 1001;
             s.FirstName = "Diana";
             s.LastName = "Prince";
-
+            p.ShowStudent(s);
         }
 
        public void ShowStudent(Student scholar)

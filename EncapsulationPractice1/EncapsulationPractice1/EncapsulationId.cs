@@ -13,6 +13,7 @@ namespace EncapsulationPractice1
         private string lastName;
         private string firstName;
 
+        public int GPA { get; set;}
 
         public int IdNumber
         {
@@ -26,7 +27,7 @@ namespace EncapsulationPractice1
             set
             {
 
-                IdNumber = value;
+                idNumber = value;
 
             }
 
@@ -41,14 +42,14 @@ namespace EncapsulationPractice1
             get
             {
 
-                return LastName;
+                return lastName;
 
 
             }
             set
             {
 
-                LastName = value;
+                lastName = value;
 
             }
 
@@ -64,7 +65,7 @@ namespace EncapsulationPractice1
 
             get
             {
-                return FirstName;
+                return firstName;
 
 
             }
@@ -72,7 +73,7 @@ namespace EncapsulationPractice1
             set
             {
 
-                FirstName = value;
+                firstName = value;
 
             }
 
