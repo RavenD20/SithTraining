@@ -30,7 +30,7 @@ namespace InheritanceShape2
 
         public void Display()
         {
-    Sqr.Display();
+             Sqr.Display();
             
 
             Console.WriteLine("What is the Length: {0}", length);

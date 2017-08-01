@@ -9,16 +9,25 @@ namespace InheritanceRestaurant
   public class PizzaHut : Restaurant
     {
 
-        PizzaHut ph = new PizzaHut();
+        //PizzaHut ph = new PizzaHut();
 
         
       
 
         public string bread1;
         public string meat1;
-        ph.PrintToppings();
+       
 
+        public override void PrintToppings()
+        {
+
+            Console.WriteLine($"Your Pizza Hut pizza has {sauce} & {meat1} plus {bread1}");
+
+
+
+        }
+     
 
 
     }
-}
+}   

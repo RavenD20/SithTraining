@@ -49,7 +49,7 @@ namespace InheritanceShape2
 
             }
 
-            static void Main()
+            static void Main(string[] args)
             {
                Rectangle Rec = new Rectangle(0,0);
 
