@@ -12,11 +12,7 @@ namespace InheritanceShape2
         class Rectangle
         {
             
-
-
-            
-
-
+         
             protected double length;
             protected double width;
             public Rectangle(double l, double w)
