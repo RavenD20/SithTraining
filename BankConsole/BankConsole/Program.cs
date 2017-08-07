@@ -42,10 +42,11 @@ namespace BankConsole
                 take = double.Parse(Console.ReadLine());
                 //BalanceNow = acct - take;
                 account -= take;
-                if (take > account) 
+                if (take >= account)  //throw new ArgumentOutOfRangeException
                 {
-                    // Console.WriteLine("Limit exceeded");
-                    throw new ArgumentOutOfRangeException("Limit Reached");
+                     Console.WriteLine("Limit exceeded");
+                   //("Limit Reached");
+                  
 
                 }
 
@@ -81,7 +82,7 @@ namespace BankConsole
             //double account = 1000;
             File A = new File();
 
-            Console.WriteLine(@"   $
+            Console.WriteLine(@"                                   $
                                 ,$$$$$,
                               ,$$$'$`$$$
                               $$$  $   `
