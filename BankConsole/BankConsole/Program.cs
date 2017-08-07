@@ -42,10 +42,14 @@ namespace BankConsole
                 take = double.Parse(Console.ReadLine());
                 //BalanceNow = acct - take;
                 account -= take;
-                if (take > account)
+                if (take > account) 
                 {
-                    Console.WriteLine("Limit exceeded");
+                    // Console.WriteLine("Limit exceeded");
+                    throw new ArgumentOutOfRangeException("Limit Reached");
+
                 }
+
+
                 return account;
 
 
@@ -80,15 +84,15 @@ namespace BankConsole
             Console.WriteLine(@"   $
                                 ,$$$$$,
                               ,$$$'$`$$$
-                               $$$  $   `
-                               '$$$,$
+                              $$$  $   `
+                              '$$$,$
                                 '$$$$,
                                  '$$$$,
                                    $ $$$,
-                                ,   $  $$$
+                               ,   $  $$$
                                 $$$,$.$$$'
                                 '$$$$$'
-                                    $");
+                                   $");
             Console.WriteLine(@"
                                 Hello and welcome to ___  ___ _ __ ___   ___   __ _  ___ 
                                                     / __|/ __| '__/ _ \ / _ \ / _` |/ _ \
@@ -126,7 +130,7 @@ namespace BankConsole
 
             Console.WriteLine("Is there anything else I can do for you?");
             string reply = Console.ReadLine().ToUpper();
-            if (reply == "Yes" || reply == "Y" || reply == "SI" || reply == "OUI" || reply == "HAI")
+            if (reply == "YES" || reply == "Y" || reply == "SI" || reply == "OUI" || reply == "HAI")
             {
 
                 Main();
@@ -142,7 +146,7 @@ namespace BankConsole
             else
                 Console.WriteLine("Incorrect. Would you like to start over?");
             reply = Console.ReadLine().ToUpper();
-            if (reply == "Yes" || reply == "Y" || reply == "SI" || reply == "OUI" || reply == "HAI")
+            if (reply == "YES" || reply == "Y" || reply == "SI" || reply == "OUI" || reply == "HAI")
             {
 
                 Main();
