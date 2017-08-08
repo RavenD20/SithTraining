@@ -67,10 +67,7 @@ namespace ShoeStoreApp
                     Console.WriteLine("Sneaker half off Sale!!!!!");
                 }
                  
-               else if (item.ShoeLaces == false)
-                {
-                    Console.WriteLine("Sale for all others starts next Week!!! Reserve yours now!");
-                }
+               
 
             }
 

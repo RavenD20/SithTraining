@@ -8,24 +8,31 @@ namespace ShoeStoreApp
 {
     class Shoes
     {
-            public int ShoeID { get; set; }
-            public double ShoeSize {get; set;}
-            public bool ShoeLaces {get; set;}
-            public string ShoeType {get; set;}
-            public string ShoeColor {get; set;}
-            
+        public int ShoeID { get; set; }
+        public double ShoeSize { get; set; }
+        public bool ShoeLaces { get; set; }
+        public string ShoeType { get; set; }
+        public string ShoeColor { get; set; }
 
-             private string shoeBox;
-             public string ShoeBox
-
+        private string shoeBox;
+        public string ShoeBox
         {
-            get { return ShoeBox; }
-            set { ShoeBox = value; }
+            get { return shoeBox; }
+            set { shoeBox = value; }
         }
-    
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -33,4 +40,5 @@ namespace ShoeStoreApp
 
 
     }
+
 }

@@ -8,12 +8,12 @@ class FirstMeal
 {
 
 
-        Breakfast special = new Breakfast (out);
+        Breakfast special = new Breakfast ("French Toast" , 4.99);
       //Display the info about breakfast
-    WriteLine("INFO");
+    WriteLine(special.INFO);
     // then display today's special
     WriteLine("Today we are having {0} for {1}",
-       special.Frenchtoast, special.price.ToString());
+       special.INFO,  special.price.ToString());
 }
 
 class Breakfast
@@ -31,6 +31,8 @@ class Breakfast
     }
     public string Frenchtoast { get; set; }
    public string price { get; set; }
+
+       
 }
 
 
