@@ -11,15 +11,15 @@ namespace ComputerStoreApp
         public int PartID { get; set; }
         public string PartType { get; set; }
         public string PartName  { get; set; }
-        public bool Internal { get; set; }
-        public bool External { get; set; }
+        public string Internal { get; set; }
+        public string External { get; set; }
         public double PreformanceRating { get; set; }
 
 
-        public void CompGear()
+             public void CompGear()
         {
-            Console.WriteLine($"The part name and ID is {PartName} and {PartID}. Is it internal{Internal}? Is it external {External}?\n");
-            Console.WriteLine($"The preformance rating is {PreformanceRating}");
+            Console.WriteLine($"The part name and ID is {PartName} and {PartID}. Is it internal?{Internal}. Is it external? {External}.\n");
+            Console.WriteLine($"The preformance rating is {PreformanceRating}.");
             
         }
 
