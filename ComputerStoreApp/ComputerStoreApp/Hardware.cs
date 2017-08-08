@@ -18,13 +18,15 @@ namespace ComputerStoreApp
 
         public void CompGear()
         {
-            Console.WriteLine("");
-            Console.WriteLine("");
-
-
-
+            Console.WriteLine($"The part name and ID is {PartName} and {PartID}. Is it internal{Internal}? Is it external {External}?\n");
+            Console.WriteLine($"The preformance rating is {PreformanceRating}");
+            
         }
 
-
+             public void CompGear2()
+        {
+            Console.WriteLine("Attention:High preformance Hard Drive parts 20% off!\n");
+           
+        }
     }
 }
