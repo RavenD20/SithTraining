@@ -6,19 +6,19 @@
 using static System.Console;
 class FixedDebugNine4
 {
-   public static void DebugNineFour()
-   {
-      const int STARTING_NUM = 201601;
-      BoatLicense[] license = new BoatLicense[];
-      int x;
-      for(x = 0; x < license.Length; ++x)
-      {
-         license[x] = new BoatLicense();
-         license[x].LicenseNum = ("" + x + STARTING_NUM);
-      }
-      license[0].State = "WI";
-      license[1].State = "MI";
-      license[2].State = "MN";
+    public static void NineFour()
+    {
+        const int STARTING_NUM = 201601;
+        BoatLicense[] license = new BoatLicense[3];
+        int x;
+        for (x = 0; x < license.Length; ++x)
+        {
+            license[x] = new BoatLicense();
+            license[x].LicenseNum = ("" + x + STARTING_NUM);
+        }
+        license[0].State = "WI";
+        license[1].State = "MI";
+        license[2].State = "MN";
       license[0].MotorSizeInHP = 30;
       license[1].MotorSizeInHP = 50;
       license[2].MotorSizeInHP = 100;
@@ -42,24 +42,58 @@ public class BoatLicense
     private string state;
     private double price;
 
-    public string LicenseNum { get; set; }
+    public string LicenseNum
+    {
+        get
+        {
+            return licenseNum;
+        }
+        set
+        {
+            licenseNum = value;
+        }
+    }
 
+    public string State
+    {
+        get
+        {
+            return state;
+        }
+        set
+        {
+            state = value;
+        }
+    }
+    public int MotorSizeInHP
+    {
+        get
+        {
+            return MotorSizeInHP;
+        }
+        set
+        {
+            MotorSizeInHP = value;
+            if (MotorSizeInHP != HPCUTOFF)
 
-    public string State { get; set; }
+                price = LOWFEE;
 
-    public int MotorSizeInHP { get; set; }
+            else
+                price = HIGHFEE;
+        }
+    }
 
-    if (licenseNum !< HPCUTOFF)
+   
+    public double Price
+    {
+        get
+        {
+            return price;
+        }
         
-              Price = LOWFEE;
-             
-           
-        else
-               price == HIGHFEE;
+    }
 
-    public double Price { get; set; }
-
-
+}
  
 
-}  
+ 
