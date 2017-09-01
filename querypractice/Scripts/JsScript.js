@@ -1,15 +1,5 @@
 ﻿
 
-//var person = {
-//    "name": "Brad"
-//}
-//console.log(person.name);
-
-
-
-
-
-
 
 
 
@@ -22,30 +12,27 @@ function pow() {
     var gord = { city: "Cleveland", team: "Cavaliers", arena: "Quicken Loans", star: "Lebron", owner: "Gilbert", co: "Usher", };
     document.getElementById('show').innerHTML = " Our hometown is " + gord.city + " & our superstar is " + gord.star;
 
-
-
-    //htmlString;
-
 }
-    //for (i = 0; ii < gord[i].city.star; ii++) {
-    //    htmlString += "show" + "Our hometown is" + gord[i].city + "& our superstar is" + gord[i].star
-    //}
-    //    //go = gord;
 
-    //}
-    //go = gord;
-    //    var ourRequest = new XMLDocument();
-    //ourRequest.open('GET', 'querypractice\AjaxPractice.txt')
-    //ourRequest.onload = function kaboom() {
-    //    var cars = JSON.parse(ourRequest.responseText);
-    //    console.log(gord[data])
-    //};
-    //ourRequest.send();
 
-    //function renderHtml(data){
-    //    var htmlString ="";
-    //}
+function retrieve() {
 
+    var wolverine = { name: "James Howlett", alias: " Logan ", nationality: "Canadian", height: "5'3", weight: "300", status: "Deceased" };
+    document.getElementById('scan').innerHTML = "Mutant known as Wolverine also known as: " + wolverine.alias + "Real name: " + wolverine.name + " checking status of mutant registry: " + wolverine.status;
+    
+}
+  
+
+
+
+
+
+
+
+
+
+
+  
 
 
     function bang() {
