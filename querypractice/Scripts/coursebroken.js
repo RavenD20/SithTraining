@@ -11,9 +11,9 @@ document.getElementById('display').innerHTML = student1.fname;
 
 function chevy() {
 
-star = { m: "Equinox", year: 2011, vin : [2020444, 369898], color: "ICE blue"  }
+star = { make: "Equinox", year: 2011, vin : [2020444, 369898], color: "ICE blue"  }
 
-document.getElementById('showing').innerHTML = star.vin[8];
+document.getElementById('showing').innerHTML = star.vin[1];
 
 document.getElementById('open').innerHTML = star.make;
 }
@@ -23,6 +23,6 @@ function double(){
     school();
 }
 
-document.getElementById('classic').onclick="chevy";
+document.getElementById('classic').onclick=chevy;
 
-document.getElementById('bow').onclick="double";
+document.getElementById('bow').onclick=double;
