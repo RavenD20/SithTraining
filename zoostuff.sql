@@ -24,9 +24,16 @@ insert into Animals
 
 select * from Animals;
 
+ alter table Animals add FoodType varchar, CountryOfOrigin varchar
+ u
+
+ 
+ 
+ update 
+
 select * from Zoo;
 
-
+alter table Zoo add Location varchar, SquareMiles int
 
 create Table Zoo
 (ZooID int not null identity (1,1),
