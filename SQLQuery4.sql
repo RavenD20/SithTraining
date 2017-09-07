@@ -1,5 +1,5 @@
 
-
+use CCC go 
 
 create table Sales.products
 (SalesNumberID int not null identity (2,1),
