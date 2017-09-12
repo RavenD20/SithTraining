@@ -25,11 +25,13 @@ insert into Animals
 select * from Animals;
 
  alter table Animals add FoodType varchar, CountryOfOrigin varchar
- u
+ 
 
  
  
- update 
+ update table Animals 
+insert into food
+  
 
 select * from Zoo;
 
