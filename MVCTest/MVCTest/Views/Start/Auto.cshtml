@@ -1,0 +1,129 @@
+﻿
+@{
+    ViewBag.Title = "Auto";
+}
+
+<h2>Auto</h2>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Validation Page</title>
+</head>
+<h1> Our position is to ensure that you enter the information correctly >:(</h1>
+<ol>
+    <li><a href="checklist.html">Checklist</a></li>
+    <li><a href="access.html">Access </a></li>
+    <hr>
+    <body>
+        <h2> Form Validation</h2>
+        <form action="checklist.html">
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="" name="student" required>
+                <br>
+                <label><b>Password</b></label>
+                <input type="password" placeholder="" name="glyph" required>
+
+                <button type="submit">Login</button>
+
+            </div>
+            <hr>
+            <h2> Date input textbox</h2>
+            Departure date:<input type="date" placeholder="mm/dd/yyyy" required>
+            <button type="submit">submit</button>
+            <hr>
+            <h2>Email Input</h2>
+            Please enter your email address:
+            <p>
+                <input type="email" placeholder="" required>
+                <button type="submit">submit</button>
+                <hr>
+                <h2> search input </h2>
+                Search:
+                <br>
+                <input type="search" placeholder="" required>
+                <button type="submit">search</button>
+                <hr>
+                <h2> Search and PlaceHolder</h2>
+                Search:
+                <br>
+                <input type="search" placeholder="Enter Keyword" required>
+                <button type="submit">search</button>
+                <hr>
+                <h5> First and last name boxes. text box.Text box and three checkboxes</h5>
+                <fieldset>
+                    <legend> Personal Info</legend>
+                    <label>
+                        First Name:<br />
+                        <input type="text" name="" />
+                    </label><br />
+                    <label>
+                        Last Name:<br />
+                        <input type="text" name="" />
+                    </label><br />
+            <p>Life Story:</p>
+            <textarea name="comments" cols="20" rows="4"></textarea>
+            <p>
+                Have you subscribed to our Tri-C mailing list?
+                <br />
+                <input type="checkbox" name="maillist"
+                       value="Yes" unchecked="checked" /> Yes </label>
+                <input type="checkbox" name="maillist"
+                       value="No" unchecked="checked" /> No</label>
+                <input type="checkbox" name="maillist"
+                       value="Thinking about it" unchecked="checked" /> Thinking about it
+            </p>
+            </label>
+        </form></fieldset>
+
+        <hr>
+        <h5>Firstname last name drop down list box four choices</h5>
+        <fieldset>
+            <legend> Prying</legend>
+            <label>
+                First Name:<br />
+                <input type="text" name="" />
+            </label><br />
+            <label>
+                Last Name:<br />
+                <input type="text" name="" />
+                <p>Have you attended tri-C before?</p>
+                <select name="Enrollment">
+                    <option value="fulltime">Full-time</option>
+                    <option value="parttime">Part-time</option>
+                    <option value="casual">on and off</option>
+                    <option value="no">Never</option>
+                </select></p>
+            </label><br />
+        </fieldset>
+        <hr>
+
+        <h5>First name lastname email and date box. with image button</h5>
+        <fieldset>
+            <legend> Getting Vetted</legend>
+            <label>
+                First Name:<br />
+                <input type="text" name="" />
+            </label><br />
+            <label>
+                Last Name:<br />
+                <input type="text" name="" />
+            </label><br />
+            <label>
+                Email:<br />
+                <input type="text" name="" />
+            </label><br />
+            <label for="date">
+                Date:<br />
+                <input type="text" name="" />
+            </label><br />
+            <form action="checklist.html">
+                <input type="image" src="..\Restaurant\pics\2fb7359731326f8bd2c0639bb2a05117.jpg" width="200" height="200">
+
+
+
+
+    </body>
+</html>
