@@ -15,10 +15,47 @@ namespace MvcMovie.Controllers
         private MovieDBContext db = new MovieDBContext();
 
         // GET: Movies
-        public ActionResult Index()
+        public ActionResult Index(string movieGenre, string searchString)
         {
-            return View(db.Movies.ToList());
+            var GenreLst = new List<string>();
+
+            var GenreQry = from d in db.Movies
+                           orderby d.Genre
+                           select d.Genre;
+
+            GenreLst.AddRange(GenreQry.Distinct());
+            ViewBag.movieGenre = new SelectList(GenreLst);
+
+            var movies = from m in db.Movies
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                movies = movies.Where(s => s.Title.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(movieGenre))
+            {
+                movies = movies.Where(x => x.Genre == movieGenre);
+            }
+
+
+            if (!String.IsNullOrEmpty(DateTime))
+            {
+                movies = DateTime.Where(v => v.ReleaseDate.Contains(searchString));
+            }
+
+
+
+
+            return View(movies);
         }
+        //var ReleaseDateList = new List<DateTime>();
+        //var ReleaseDateQry = from d in db.Movies
+        //                     orderby d.ReleaseDate
+        //                     select d.ReleaseDate;
+        //ReleaseDateList.AddRange(ReleaseDateQry.Distinct());
+        //    ViewBag.movieReleaseDate = new SelectList(ReleaseDateList);
 
         // GET: Movies/Details/5
         public ActionResult Details(int? id)
